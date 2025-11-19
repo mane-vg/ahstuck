@@ -20,7 +20,7 @@
 
   onMount(() => {
     logoPosition = heroSection.clientHeight - backgroundImage.clientHeight - (logo.clientHeight / 4.25);
-    console.log(logoPosition);
+    backgroundImage.play();
   });
 
   function scrollSpy(event) {
@@ -33,10 +33,10 @@
 </script>
 
 <section id="hero" bind:this={heroSection}>
-    <picture class="section--background" bind:this={backgroundImage}>
-        <source>
-        <img src="/images/hero.jpg">
-    </picture>
+    <video class="section--background" autoplay muted playsinline bind:this={backgroundImage}>
+        <source src="videos/header.webm" type="video/webm">
+        <source src="videos/header.mp4" type="video/mp4">
+    </video>
     <img class="logo" src="logo_claim.svg">
     <svg id="logo-large" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 921.8 520" width="921.8" height="520" style="--logo-bottom: {logoPosition}px" bind:this={logo}>
         <defs>
