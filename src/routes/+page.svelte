@@ -577,14 +577,14 @@
   }
 
   section#contact {
-    margin: calc(var(--gutter-width) * 3.5) var(--gutter-width) 0 var(--gutter-width);
-    padding-bottom: calc(var(--gutter-width) * 5.5);
+    margin: calc(var(--gutter-width) * 3.5) 0 0 0;
+    padding: 0 var(--gutter-width) calc(var(--gutter-width) * 5.5) var(--gutter-width);
 
-    overflow-y: hidden;
+    overflow: hidden;
 
     @media (min-width: 1200px) {
-      margin: calc(var(--gutter-width) * 5.5) var(--gutter-width) 0 var(--gutter-width);
-      padding-bottom: calc(var(--gutter-width) * 5.5);
+      margin: calc(var(--gutter-width) * 5.5) 0 0 0;
+      padding: 0 var(--gutter-width) calc(var(--gutter-width) * 5.5) var(--gutter-width);
     }
 
     h2 {
