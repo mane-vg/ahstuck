@@ -24,7 +24,6 @@
   });
 
   function scrollSpy(event) {
-    console.log(event.target.id);
     document.querySelectorAll('header a.is-active').forEach((item) => {
       item.classList.remove('is-active');
     });
@@ -33,7 +32,7 @@
 </script>
 
 <section id="hero" bind:this={heroSection}>
-    <video class="section--background" autoplay muted playsinline bind:this={backgroundImage}>
+    <video class="section--background" autoplay muted playsinline loop bind:this={backgroundImage}>
         <source src="videos/header.webm" type="video/webm">
         <source src="videos/header.mp4" type="video/mp4">
     </video>
@@ -63,6 +62,7 @@
         <Splide options={{
           type: 'loop',
           gap: '20px',
+          snap: false,
           fixedWidth: '70%',
           mediaQuery: "min",
           breakpoints: {
@@ -161,7 +161,7 @@
             <img src="/images/structure.png">
         </picture>
     </section>
-    <section id="work" use:inview on:inview_enter={scrollSpy}>
+    <!--<section id="work" use:inview on:inview_enter={scrollSpy}>
         <h2>Arbeiten</h2>
         <Splide options={{
           type: 'loop',
@@ -193,7 +193,7 @@
             <source src="/images/structure.webp" type="image/webp"/>
             <img src="/images/structure.png">
         </picture>
-    </section>
+    </section>-->
     <section id="customers" use:inview on:inview_enter={scrollSpy}>
         <h2>Was unsere Kunden sagen</h2>
         <Splide options={{
@@ -204,18 +204,19 @@
           pagination: true,
         }}>
             <SplideSlide>
-                <Quote quote="Wir haben viele Häuser mit AH Stuck umgesetzt und die Qualität und Pünktlichkeit waren immer Top."
-                       author="Anna Maier, Bauunternehmerin"/>
-            </SplideSlide>
-            <SplideSlide>
-                <Quote quote="Wir haben viele Häuser mit AH Stuck umgesetzt und die Qualität und Pünktlichkeit waren immer Top."
-                       author="Anna Maier, Bauunternehmerin"/>
-            </SplideSlide>
-            <SplideSlide>
-                <Quote quote="Wir haben viele Häuser mit AH Stuck umgesetzt und die Qualität und Pünktlichkeit waren immer Top."
-                       author="Anna Maier, Bauunternehmerin"/>
+                <Quote quote="Absolut begeistert! Die Renovierung unserer Fassade übertrifft alle Erwartungen. Was für eine makellose Ausführung – pure Perfektion von A bis Z! Danke an das Team von AH Stuck und Design."
+                       author="Haustechnik Renner GmbH"/>
             </SplideSlide>
         </Splide>
+    </section>
+    <section id="praktikum">
+        <h2>Praktikum <br/>bei AH Stuck</h2>
+        <p>
+            Du interessierst dich für handwerkliches Arbeiten und möchtest Einblicke in den Stuckateurberuf gewinnen?
+            Wir bieten Schülern und Interessierten die Möglichkeit, ein Praktikum in unserem Betrieb zu absolvieren.
+            Lerne unsere Arbeit kennen, sammle praktische Erfahrungen und entdecke, wie viel Kreativität und Präzision in unserem Handwerk steckt.
+            Wir freuen uns auf deine Bewerbung: <a href="mailto:info@ahstuckdesign.de"><strong>info@ahstuckdesign.de</strong></a>
+        </p>
     </section>
     <section id="contact" use:inview on:inview_enter={scrollSpy}>
         <h2>Erreichen Sie uns, <br/>wenn Sie uns brauchen</h2>
@@ -259,9 +260,16 @@
       left: var(--gutter-width);
     }
 
+    video.section--background {
+      width: 100%;
+      height: 100%;
+      object-position: center;
+      object-fit: cover;
+    }
+
     #logo-large {
       position: absolute;
-      bottom: calc(var(--logo-bottom) * -0.34);
+      bottom: calc(var(--logo-bottom) * 1.7);
       left: var(--gutter-width);
 
       max-width: 80vw;
@@ -576,6 +584,23 @@
     }
   }
 
+  section#praktikum {
+    h2 {
+      grid-column: 1/5;
+      grid-row: 1;
+    }
+    p {
+      grid-column: 1/5;
+      grid-row: 2;
+      column-count: 2;
+
+      @media (min-width: 1200px) {
+        grid-column: 2/6;
+        grid-row: 2;
+      }
+    }
+  }
+
   section#contact {
     margin: calc(var(--gutter-width) * 3.5) 0 0 0;
     padding: 0 var(--gutter-width) calc(var(--gutter-width) * 5.5) var(--gutter-width);
@@ -628,6 +653,9 @@
 
         text-align: right;
 
+      font-family: 'Be Vietnam Pro SemiBold';
+      font-weight: 600;
+
         @media (min-width: 1200px) {
 
         }
@@ -635,6 +663,13 @@
 
       :nth-child(odd) {
         grid-column: 1;
+
+        span {
+          text-transform: uppercase;
+          color: var(--primary);
+          font-family: 'Be Vietnam Pro SemiBold';
+          font-weight: 600;
+        }
 
         @media (min-width: 1200px) {
 

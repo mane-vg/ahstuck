@@ -11,7 +11,7 @@
 <header>
     <a href="#intro" class="is-active"><span>Willkommen</span><div></div></a>
     <a href="#services"><span>Dienstleistungen</span><div></div></a>
-    <a href="#work"><span>Arbeiten</span><div></div></a>
+<!--    <a href="#work"><span>Arbeiten</span><div></div></a>-->
     <a href="#customers"><span>Kunden</span><div></div></a>
     <a href="#contact"><span>Kontakt</span><div></div></a>
 </header>
@@ -105,6 +105,8 @@
     flex-direction: column;
     grid-gap: 10px;
 
+    mix-blend-mode: difference;
+
     text-align: right;
 
     z-index: 10;
@@ -119,6 +121,10 @@
         margin-right: 1em;
 
         transition: all 0.5s;
+
+        @media(max-width: 1199px) {
+          color: transparent;
+        }
       }
 
       div {
@@ -126,21 +132,26 @@
         top: 0;
         right: 0;
         bottom: 0;
-        background-color: var(--grey-medium);
+        background-color: var(--white);
         width: 5px;
         height: 100%;
         border-radius: 5px;
 
+        opacity: 0.25;
         transition: all 0.5s;
       }
 
       &.is-active, &:hover {
         span {
-          color: var(--black);
+          color: var(--white);
+
+          @media(max-width: 1199px) {
+            color: transparent;
+          }
         }
 
         div {
-          background-color: var(--black);
+          opacity: 1;
         }
       }
     }
@@ -267,6 +278,10 @@
 
   :global(.small) {
     font-size: var(--font-size-small);
+  }
+
+  :global(strong) {
+    font-family: 'Be Vietnam Pro SemiBold';
   }
 
   :global(a) {
