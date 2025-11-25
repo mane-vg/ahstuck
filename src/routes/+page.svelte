@@ -75,16 +75,7 @@
           pagination: false,
         }}>
             <SplideSlide>
-                <Image src="/images/impressionen_1.jpg"/>
-            </SplideSlide>
-            <SplideSlide>
-                <Image src="/images/impressionen_2.jpg"/>
-            </SplideSlide>
-            <SplideSlide>
-                <Image src="/images/impressionen_3.jpg"/>
-            </SplideSlide>
-            <SplideSlide>
-                <Image src="/images/impressionen_4.jpg"/>
+                <Image src="/images/impressionen_7.jpg"/>
             </SplideSlide>
             <SplideSlide>
                 <Image src="/images/impressionen_1.jpg"/>
@@ -97,6 +88,15 @@
             </SplideSlide>
             <SplideSlide>
                 <Image src="/images/impressionen_4.jpg"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Image src="/images/impressionen_5.jpg"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Image src="/images/impressionen_6.jpg"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Image src="/images/impressionen_8.jpg"/>
             </SplideSlide>
         </Splide>
 
@@ -148,6 +148,15 @@
                 <p>Mit Stuckarbeiten verleihen wir Fassaden und Innenräumen eine besondere Note.
                     Von klassischen Profilen über Gesimse bis hin zu modernen Gestaltungen – wir
                     fertigen und montieren Stuckelemente passgenau und langlebig.</p>
+            </div>
+        </div>
+        <div class="service--wrapper">
+            <Image src="/images/innenputz.jpg" responsiveSet="3x2"/>
+            <div class="service--text">
+                <h3>Dekorative Innenraumgestaltung</h3>
+                <p>Mit Lehmputz, Spachtel- und Gestaltungstechniken schaffen wir individuelle
+                    Oberflächen mit Charakter. Ob natürliche Wände aus Lehm, glatte Spachteloptik
+                    oder strukturierte Akzente – wir sorgen für ein hochwertiges Erscheinungsbild.</p>
             </div>
         </div>
         <picture class="structure">
@@ -351,6 +360,8 @@
 
       .service--text {
         align-content: end;
+
+        max-width: 750px;
       }
 
       &:nth-of-type(even) {
@@ -378,6 +389,8 @@
           @media (min-width: 1200px) {
             grid-column: 1;
             grid-row: 1;
+
+            justify-self: flex-end;
 
             text-align: unset;
           }
@@ -407,6 +420,8 @@
           @media (min-width: 1200px) {
             grid-column: 2;
             grid-row: 1;
+
+            justify-self: flex-start;
           }
         }
       }
@@ -448,6 +463,14 @@
 
         @media (min-width: 1200px) {
           grid-row: 29/38;
+        }
+      }
+
+      &:nth-of-type(5) {
+        grid-row: 10;
+
+        @media (min-width: 1200px) {
+          grid-row: 39/45;
         }
       }
     }
@@ -512,6 +535,10 @@
 
       @media (min-width: 1200px) {
         grid-column: 2/6;
+      }
+
+      @media (min-width: 1925px) {
+        grid-column: 3/5;
       }
 
       :global(.splide__track) {
@@ -597,6 +624,12 @@
       @media (min-width: 1200px) {
         grid-column: 2/6;
         grid-row: 2;
+
+        column-count: 2;
+      }
+
+      @media (min-width: 1925px) {
+        grid-column: 3/5;
       }
     }
   }
