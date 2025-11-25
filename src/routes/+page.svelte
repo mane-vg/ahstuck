@@ -63,7 +63,7 @@
           type: 'loop',
           gap: '20px',
           snap: false,
-          fixedWidth: '70%',
+          fixedWidth: '80%',
           mediaQuery: "min",
           breakpoints: {
             1200: {
@@ -304,10 +304,12 @@
 
     p {
       grid-column: 1/4;
-      column-count: 2;
+      column-count: 1;
 
       @media (min-width: 1200px) {
         grid-column: 2/6;
+
+        column-count: 2;
       }
     }
 
@@ -619,7 +621,7 @@
     p {
       grid-column: 1/5;
       grid-row: 2;
-      column-count: 2;
+      column-count: 1;
 
       @media (min-width: 1200px) {
         grid-column: 2/6;

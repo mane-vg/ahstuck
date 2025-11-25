@@ -70,7 +70,7 @@
       --font-family-medium: 'Be Vietnam Pro Medium';
       --font-family-semibold: 'Be Vietnam Pro SemiBold';
       --font-family-bold: 'Be Vietnam Pro ExtraBold';
-      --font-size-base: 1.25vw;
+      --font-size-base: 4vw;
       --font-size-small: calc(0.875 * var(--font-size-base));
       --font-size-lead: calc(1.325 * var(--font-size-base));
       --font-size-h1: calc(3.11 * var(--font-size-base));
@@ -82,7 +82,7 @@
       --transition-duration: 0.25s;
 
       @media(min-width: 1200px) {
-        --font-size-base: 0.8vw;
+        --font-size-base: 1.25vw;
 
         --font-size-small: calc(0.875 * var(--font-size-base));
         --font-size-lead: calc(1.325 * var(--font-size-base));
@@ -91,6 +91,10 @@
         --font-size-h3: calc(1.39 * var(--font-size-base));
 
         --gutter-width: 30px;
+      }
+
+      @media(min-width: 1925px) {
+        --font-size-base: 0.8vw;
       }
     }
 
