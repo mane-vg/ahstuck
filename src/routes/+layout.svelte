@@ -30,7 +30,7 @@
     font-family: 'Be Vietnam Pro Regular';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/be-vietnam-pro-v12-latin_latin-ext-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('/fonts/be-vietnam-pro-v12-latin_latin-ext-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   /* be-vietnam-pro-500 - latin_latin-ext */
   @font-face {
@@ -38,7 +38,7 @@
     font-family: 'Be Vietnam Pro Medium';
     font-style: normal;
     font-weight: 500;
-    src: url('../fonts/be-vietnam-pro-v12-latin_latin-ext-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('fonts/be-vietnam-pro-v12-latin_latin-ext-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   /* be-vietnam-pro-600 - latin_latin-ext */
   @font-face {
@@ -46,7 +46,7 @@
     font-family: 'Be Vietnam Pro SemiBold';
     font-style: normal;
     font-weight: 600;
-    src: url('../fonts/be-vietnam-pro-v12-latin_latin-ext-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('/fonts/be-vietnam-pro-v12-latin_latin-ext-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   /* be-vietnam-pro-900 - latin_latin-ext */
   @font-face {
@@ -54,7 +54,7 @@
     font-family: 'Be Vietnam Pro ExtraBold';
     font-style: normal;
     font-weight: 900;
-    src: url('../fonts/be-vietnam-pro-v12-latin_latin-ext-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('/fonts/be-vietnam-pro-v12-latin_latin-ext-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
 
     :root {
