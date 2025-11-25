@@ -61,6 +61,7 @@
         </p>
         <Splide options={{
           type: 'loop',
+          drag: 'free',
           gap: '20px',
           snap: false,
           fixedWidth: '80%',
