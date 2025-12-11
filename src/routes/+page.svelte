@@ -118,10 +118,10 @@
             <Image src="/images/innenputz.jpg" responsiveSet="3x2"/>
             <div class="service--text">
                 <h3>Innenputz</h3>
-                <p>Saubere Wände und ein gesundes Raumklima, wir verputzen Innenräume fachgerecht
-                    und schaffen die perfekte Grundlage für Farbe oder Tapete. Wir bieten Ihnen
-                    verschiedene Putztechniken – von klassisch bis modern – und beraten Sie, welche
-                    Lösung am besten zu Ihren Räumen passt.</p>
+                <p>Saubere Wände und ein gesundes Raumklima, wir verputzen Innenräume fachgerecht und
+                    schaffen die perfekte Grundlage für Farbe oder Tapete. Wir bieten Ihnen
+                    verschiedene Putztechniken – von klassisch bis modern – und beraten Sie,
+                    welche Lösung am besten zu Ihren Räumen passt.</p>
             </div>
         </div>
         <div class="service--wrapper">
@@ -129,17 +129,17 @@
             <div class="service--text">
                 <h3>Aussenputz</h3>
                 <p>Schutz und Optik in einem: Unser Außenputz bewahrt Ihre Fassade vor Witterung.
-                    Mit moderner Wärmedämmung (WDVS) steigern wir zusätzlich die Energieeffizienz
-                    Ihres Hauses.</p>
+                    Mit moderner Wärmedämmung (WDVS) steigern wir zusätzlich die
+                    Energieeffizienz Ihres Hauses.</p>
             </div>
         </div>
         <div class="service--wrapper">
             <Image src="/images/trockenbau.jpg" responsiveSet="3x2"/>
             <div class="service--text">
                 <h3>Trockenbau</h3>
-                <p>Schnell, flexibel, passgenau: Mit Trockenbauwänden, Decken und Verkleidungen gestalten
-                    wir Räume nach Ihren Anforderungen und auf Wunsch auch mit integrierter Wärme- und
-                    Schalldämmung.</p>
+                <p>Schnell, flexibel, passgenau: Mit Trockenbauwänden, Decken und Verkleidungen
+                    gestalten wir Räume nach Ihren Anforderungen und auf Wunsch auch mit integrierter
+                    Schalldämmung. Wir achten auf die Raumakustik und den Brandschutz.</p>
             </div>
         </div>
         <div class="service--wrapper">
@@ -147,14 +147,23 @@
             <div class="service--text">
                 <h3>Stuck</h3>
                 <p>Mit Stuckarbeiten verleihen wir Fassaden und Innenräumen eine besondere Note.
-                    Von klassischen Profilen über Gesimse bis hin zu modernen Gestaltungen – wir
-                    fertigen und montieren Stuckelemente passgenau und langlebig.</p>
+                    Von klassischen Profilen über Gesimse bis hin zu modernen Gestaltungen –
+                    wir fertigen und montieren Stuckelemente passgenau und langlebig an.</p>
             </div>
         </div>
         <div class="service--wrapper">
-            <Image src="/images/innenputz.jpg" responsiveSet="3x2"/>
+            <Image src="/images/innenraum.jpg" responsiveSet="3x2"/>
             <div class="service--text">
                 <h3>Dekorative Innenraumgestaltung</h3>
+                <p>Mit Lehmputz, Spachtel- und Gestaltungstechniken schaffen wir individuelle Oberflächen
+                    mit Charakter. Ob natürliche Wände aus Lehm, glatte Spachteloptik oder
+                    strukturierte Akzente – wir sorgen für ein hochwertiges Erscheinungsbild.</p>
+            </div>
+        </div>
+        <div class="service--wrapper">
+            <Image src="/images/gerüshbau.jpg" responsiveSet="3x2"/>
+            <div class="service--text">
+                <h3>Gerüstbau</h3>
                 <p>Mit Lehmputz, Spachtel- und Gestaltungstechniken schaffen wir individuelle
                     Oberflächen mit Charakter. Ob natürliche Wände aus Lehm, glatte Spachteloptik
                     oder strukturierte Akzente – wir sorgen für ein hochwertiges Erscheinungsbild.</p>
@@ -170,6 +179,19 @@
             <source src="/images/structure.webp" type="image/webp"/>
             <img src="/images/structure.png">
         </picture>
+    </section>
+    <section id="experience">
+        <Image src="/images/andreas_hassler.jpg" responsiveSet="4x3" />
+        <div class="text">
+            <h3>Stuckateurmeister</h3>
+            <h2>Andreas Haßler</h2>
+            <p>
+                Seit 1994 im Stuckateurhandwerk tätig und seit 2004 Stuckateurmeister. Mit Erfahrung aus zahlreichen Baustellen und Herausforderungen, stets mit Blick für Details und das Besondere.
+            </p>
+            <p>
+                Seit dem 01.01.2025 mit AH Stuck selbstständig.
+            </p>
+        </div>
     </section>
     <!--<section id="work" use:inview on:inview_enter={scrollSpy}>
         <h2>Arbeiten</h2>
@@ -216,6 +238,22 @@
             <SplideSlide>
                 <Quote quote="Absolut begeistert! Die Renovierung unserer Fassade übertrifft alle Erwartungen. Was für eine makellose Ausführung – pure Perfektion von A bis Z! Danke an das Team von AH Stuck und Design."
                        author="Haustechnik Renner GmbH"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Quote quote="[...] Der Ablauf auf der Baustelle möchte ich als sehr seriös und professionell Bezeichnen. Das Ergebnis Ihrer Arbeit hat genau unseren Wünschen entsprochen und gefällt uns bis heute sehr gut! Wir möchten uns nochmals bei Ihnen bedanken und würden Sie als Partner jederzeit wieder wählen und können Sie nur wärmstens weiterempfehlen!"
+                       author="CCEP Deutschland GmbH"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Quote quote="„Kompetente Beratung - Wünsche/Vorstellungen wurden erkannt und kreativ sowie modern umgesetzt. Tolles Team - freundliche und engagierte Mitarbeiter. Stimmiges Gesamtpaket, tolles Ergebnis wir sind rundum zufrieden.“"
+                       author="Anja Kneer"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Quote quote="Wir können AH Stuck und Design nur wärmstens empfehlen! Von der Angebotserstellung bis zur Ausführung lief alles absolut reibungslos und termingerecht. Herr Hassler war jederzeit erreichbar, nahm sich Zeit für alle Fragen und kümmerte sich persönlich um einen professionellen und gut organisierten Ablauf. [...]"
+                       author="Engler Steuer- und Messtechnik GmbH & Co. KG"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Quote quote="Die Firma AH Stuck und Design wurde von uns im Rahmen einer Fassadenerneuerung beauftragt. Sämtliche Arbeiten liefen organisiert, pünktlich,sauber und professionell ab. Wir sind absolut zufrieden und können die Firma uneingeschränkt weiterempfehlen."
+                       author="Nicole & Michael Harscher"/>
             </SplideSlide>
         </Splide>
     </section>
@@ -268,6 +306,10 @@
       position: absolute;
       top: var(--gutter-width);
       left: var(--gutter-width);
+
+      @media(min-width: 1200px) {
+        width: 10vw;
+      }
     }
 
     video.section--background {
@@ -295,6 +337,10 @@
   }
 
   section#intro {
+    margin: calc(var(--gutter-width) * 7) var(--gutter-width);
+    @media(min-width: 1200px) {
+      margin: calc(var(--gutter-width) * 11) var(--gutter-width);
+    }
     h1 {
       grid-column: 1/4;
 
@@ -490,6 +536,30 @@
         right: -25vw;
         bottom: -30vh;
         transform: rotate(45deg);
+      }
+    }
+  }
+
+  section#experience {
+    :global(picture) {
+      grid-column: 2/4;
+    }
+
+    .text {
+
+      align-self: center;
+
+      h3 {
+        margin-bottom: 0.5em;
+        font-size: calc(var(--font-size-base) * 1.05);
+      }
+      h2 {
+        font-size: calc(var(--font-size-base) * 2.5);
+        color: var(--primary);
+      }
+
+      @media(min-width: 1200px) {
+        grid-column: 4/6;
       }
     }
   }

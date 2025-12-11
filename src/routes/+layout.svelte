@@ -5,7 +5,36 @@
 </script>
 
 <svelte:head>
+	<!-- Primary Meta Tags -->
+	<title>AH Stuck & Design - Ihr Partner für Putz, Stuck und Dämmung</title>
+	<meta name="title" content="AH Stuck & Design - Ihr Partner für Putz, Stuck und Dämmung in Laichingen" />
+	<meta name="description" content="Stuckateur in Laichingen - Wir bieten handwerkliche Qualität für Putz, Stuck und Innenausbau. Neubau, Renovierung und Sanierung mit modernen Techniken und traditionellem Handwerk." />
+	<meta name="keywords" content="Stuckateur, Putz, Stuck, Laichingen, Innenputz, Aussenputz, Trockenbau, Dämmung, Innenausbau, Renovierung, Sanierung, Haßler-Schwenk-Weiss" />
+	<meta name="author" content="Haßler-Schwenk-Weiss GbR" />
+	<meta name="robots" content="index, follow" />
+	<meta name="language" content="DE" />
+	<meta name="revisit-after" content="7 days" />
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://ahstuckdesign.de/" />
+	<meta property="og:title" content="AH Stuck & Design - Ihr Partner für Putz, Stuck und Dämmung" />
+	<meta property="og:description" content="Handwerkliche Qualität und kreative Lösungen für Putz, Stuck und Innenausbau. Neubau, Renovierung oder Sanierung - Ihr Stuckateur in Laichingen." />
+	<meta property="og:image" content="https://ahstuckdesign.de/logo_claim.svg" />
+	<meta property="og:locale" content="de_DE" />
+	<meta property="og:site_name" content="AH Stuck & Design" />
+
+	<!-- Business Contact Information (Schema.org) -->
+	<meta property="business:contact_data:street_address" content="Gottlieb-Daimler-Straße 11" />
+	<meta property="business:contact_data:locality" content="Laichingen" />
+	<meta property="business:contact_data:postal_code" content="89150" />
+	<meta property="business:contact_data:country_name" content="Germany" />
+	<meta property="business:contact_data:email" content="info@ahstuckdesign.de" />
+	<meta property="business:contact_data:phone_number" content="+49 7333 8053144" />
+
+	<!-- Favicon -->
 	<link rel="icon" href={favicon} />
+	<link rel="canonical" href="https://ahstuckdesign.de/" />
 </svelte:head>
 
 <header>
@@ -38,7 +67,7 @@
     font-family: 'Be Vietnam Pro Medium';
     font-style: normal;
     font-weight: 500;
-    src: url('fonts/be-vietnam-pro-v12-latin_latin-ext-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('/fonts/be-vietnam-pro-v12-latin_latin-ext-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   /* be-vietnam-pro-600 - latin_latin-ext */
   @font-face {
@@ -162,10 +191,12 @@
   }
 
   :global(html) {
+    scroll-behavior: smooth;
     overflow-x: hidden;
   }
 
   :global(body) {
+    scroll-behavior: smooth;
     margin: 0;
 
     background-color: var(--grey-light);
