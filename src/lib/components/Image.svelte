@@ -90,7 +90,7 @@
     figcaption {
       position: absolute;
       top: calc(var(--gutter-width) / 2);
-      left: calc(var(--gutter-width) / 2);
+      right: calc(var(--gutter-width) / 2);
 
       padding: calc(var(--gutter-width) / 4) calc(var(--gutter-width) / 2);
       background: var(--primary);

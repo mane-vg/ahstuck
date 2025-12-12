@@ -16,6 +16,9 @@
       position: relative;
 
       text-align: left;
+      align-self: center;
+      vertical-align: middle;
+      justify-self: center;
 
       .author {
 

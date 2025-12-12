@@ -40,7 +40,7 @@
 <header>
     <a href="#intro" class="is-active"><span>Willkommen</span><div></div></a>
     <a href="#services"><span>Dienstleistungen</span><div></div></a>
-<!--    <a href="#work"><span>Arbeiten</span><div></div></a>-->
+    <a href="#work"><span>Arbeiten</span><div></div></a>
     <a href="#customers"><span>Kunden</span><div></div></a>
     <a href="#contact"><span>Kontakt</span><div></div></a>
 </header>

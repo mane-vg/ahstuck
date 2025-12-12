@@ -91,13 +91,31 @@
                 <Image src="/images/impressionen_4.jpg"/>
             </SplideSlide>
             <SplideSlide>
-                <Image src="/images/impressionen_5.jpg"/>
-            </SplideSlide>
-            <SplideSlide>
                 <Image src="/images/impressionen_6.jpg"/>
             </SplideSlide>
             <SplideSlide>
                 <Image src="/images/impressionen_8.jpg"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Image src="/images/impressionen_9.jpg"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Image src="/images/impressionen_10.jpg"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Image src="/images/impressionen_11.jpg"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Image src="/images/impressionen_12.jpg"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Image src="/images/impressionen_13.jpg"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Image src="/images/impressionen_14.jpg"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Image src="/images/impressionen_15.jpg"/>
             </SplideSlide>
         </Splide>
 
@@ -161,7 +179,7 @@
             </div>
         </div>
         <div class="service--wrapper">
-            <Image src="/images/gerüshbau.jpg" responsiveSet="3x2"/>
+            <Image src="/images/geruestbau.jpg" responsiveSet="3x2"/>
             <div class="service--text">
                 <h3>Gerüstbau</h3>
                 <p>Mit Lehmputz, Spachtel- und Gestaltungstechniken schaffen wir individuelle
@@ -181,10 +199,11 @@
         </picture>
     </section>
     <section id="experience">
+        <h2>Mit langjähriger Erfahrung</h2>
         <Image src="/images/andreas_hassler.jpg" responsiveSet="4x3" />
         <div class="text">
             <h3>Stuckateurmeister</h3>
-            <h2>Andreas Haßler</h2>
+            <h2>Andreas Haẞler</h2>
             <p>
                 Seit 1994 im Stuckateurhandwerk tätig und seit 2004 Stuckateurmeister. Mit Erfahrung aus zahlreichen Baustellen und Herausforderungen, stets mit Blick für Details und das Besondere.
             </p>
@@ -193,13 +212,15 @@
             </p>
         </div>
     </section>
-    <!--<section id="work" use:inview on:inview_enter={scrollSpy}>
+    <section id="work" use:inview on:inview_enter={scrollSpy}>
         <h2>Arbeiten</h2>
         <Splide options={{
           type: 'loop',
           gap: '20px',
           fixedWidth: '70%',
           mediaQuery: "min",
+          drag: 'free',
+          snap: false,
           breakpoints: {
             1200: {
               gap: '40px',
@@ -210,13 +231,61 @@
           pagination: false,
         }}>
             <SplideSlide>
-                <Image src="/images/impressionen_1.jpg" caption="Aussenputz"/>
+                <Image src="/images/work_1.jpg" caption="Stuck"/>
             </SplideSlide>
             <SplideSlide>
-                <Image src="/images/impressionen_2.jpg" caption="Stuckverkleidung"/>
+                <Image src="/images/work_2.jpg" caption="Außenputz"/>
             </SplideSlide>
             <SplideSlide>
-                <Image src="/images/impressionen_3.jpg" caption="Effektputz"/>
+                <Image src="/images/work_3.jpg" caption="Außenputz"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Image src="/images/work_4.jpg" caption="Innenputz"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Image src="/images/work_5.jpg" caption="Gerüstbau"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Image src="/images/work_6.jpg" caption="Außenputz"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Image src="/images/work_7.jpg" caption="Stuck"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Image src="/images/work_8.jpg" caption="Akustik"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Image src="/images/work_9.jpg" caption="Außenputz"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Image src="/images/work_10.jpg" caption="Stuck"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Image src="/images/work_19.jpg" caption="Stuck"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Image src="/images/work_11.jpg" caption="Innenraumgestaltung"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Image src="/images/work_12.jpg" caption="Gerüstbau"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Image src="/images/work_13.jpg" caption="Gerüstbau"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Image src="/images/work_14.jpg" caption="Innenraumgestaltung"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Image src="/images/work_15.jpg" caption="Außenputz"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Image src="/images/work_16.jpg" caption="Stuck"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Image src="/images/work_17.jpg" caption="Stuck"/>
+            </SplideSlide>
+            <SplideSlide>
+                <Image src="/images/work_18.jpg" caption="Gerüstbau"/>
             </SplideSlide>
         </Splide>
 
@@ -225,7 +294,7 @@
             <source src="/images/structure.webp" type="image/webp"/>
             <img src="/images/structure.png">
         </picture>
-    </section>-->
+    </section>
     <section id="customers" use:inview on:inview_enter={scrollSpy}>
         <h2>Was unsere Kunden sagen</h2>
         <Splide options={{
@@ -248,7 +317,7 @@
                        author="Anja Kneer"/>
             </SplideSlide>
             <SplideSlide>
-                <Quote quote="Wir können AH Stuck und Design nur wärmstens empfehlen! Von der Angebotserstellung bis zur Ausführung lief alles absolut reibungslos und termingerecht. Herr Hassler war jederzeit erreichbar, nahm sich Zeit für alle Fragen und kümmerte sich persönlich um einen professionellen und gut organisierten Ablauf. [...]"
+                <Quote quote="Wir können AH Stuck und Design nur wärmstens empfehlen! Von der Angebotserstellung bis zur Ausführung lief alles absolut reibungslos und termingerecht. Herr Haßler war jederzeit erreichbar, nahm sich Zeit für alle Fragen und kümmerte sich persönlich um einen professionellen und gut organisierten Ablauf. [...]"
                        author="Engler Steuer- und Messtechnik GmbH & Co. KG"/>
             </SplideSlide>
             <SplideSlide>
@@ -522,6 +591,14 @@
           grid-row: 39/45;
         }
       }
+
+      &:nth-of-type(6) {
+        grid-row: 11;
+
+        @media (min-width: 1200px) {
+          grid-row: 46/51;
+        }
+      }
     }
 
     .structure {
@@ -541,11 +618,22 @@
   }
 
   section#experience {
+    h2 {
+      grid-column: 1/5;
+    }
+
     :global(picture) {
-      grid-column: 2/4;
+      grid-column: 1/4;
+
+      @media (min-width: 1200px) {
+        grid-column: 2/4;
+
+        margin-left: -25%;
+      }
     }
 
     .text {
+      grid-column: 1/4;
 
       align-self: center;
 
@@ -606,6 +694,8 @@
       grid-column: 1/4;
       grid-row: 2;
 
+
+
       @media (min-width: 1200px) {
         grid-column: 2/6;
       }
@@ -620,6 +710,11 @@
         @media (min-width: 1200px) {
           margin: unset;
         }
+      }
+
+      :global(.splide__slide) {
+        display: flex;
+        align-items: center;
       }
 
       :global(.splide__arrows) {
@@ -665,6 +760,8 @@
         bottom: -2.5em;
         left: 50%;
         transform: translateX(-50%);
+
+        flex-wrap: nowrap;
         :global(.splide__pagination__page) {
           width: 30px;
           height: 5px;
