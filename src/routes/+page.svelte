@@ -182,9 +182,9 @@
             <Image src="/images/geruestbau.jpg" responsiveSet="3x2"/>
             <div class="service--text">
                 <h3>Gerüstbau</h3>
-                <p>Mit Lehmputz, Spachtel- und Gestaltungstechniken schaffen wir individuelle
-                    Oberflächen mit Charakter. Ob natürliche Wände aus Lehm, glatte Spachteloptik
-                    oder strukturierte Akzente – wir sorgen für ein hochwertiges Erscheinungsbild.</p>
+                <p>Von einfachen Fassadengerüsten über Arbeits- und Schutzgerüste bis hin zu
+                    individuellen Sonderkonstruktionen – wir planen, errichten und sichern
+                    Gerüste passgenau und zuverlässig ab.</p>
             </div>
         </div>
         <picture class="structure">
@@ -310,7 +310,7 @@
             </SplideSlide>
             <SplideSlide>
                 <Quote quote="[...] Der Ablauf auf der Baustelle möchte ich als sehr seriös und professionell Bezeichnen. Das Ergebnis Ihrer Arbeit hat genau unseren Wünschen entsprochen und gefällt uns bis heute sehr gut! Wir möchten uns nochmals bei Ihnen bedanken und würden Sie als Partner jederzeit wieder wählen und können Sie nur wärmstens weiterempfehlen!"
-                       author="CCEP Deutschland GmbH"/>
+                       author="Christian Leverenz"/>
             </SplideSlide>
             <SplideSlide>
                 <Quote quote="„Kompetente Beratung - Wünsche/Vorstellungen wurden erkannt und kreativ sowie modern umgesetzt. Tolles Team - freundliche und engagierte Mitarbeiter. Stimmiges Gesamtpaket, tolles Ergebnis wir sind rundum zufrieden.“"
@@ -318,7 +318,7 @@
             </SplideSlide>
             <SplideSlide>
                 <Quote quote="Wir können AH Stuck und Design nur wärmstens empfehlen! Von der Angebotserstellung bis zur Ausführung lief alles absolut reibungslos und termingerecht. Herr Haßler war jederzeit erreichbar, nahm sich Zeit für alle Fragen und kümmerte sich persönlich um einen professionellen und gut organisierten Ablauf. [...]"
-                       author="Engler Steuer- und Messtechnik GmbH & Co. KG"/>
+                       author="Silke Gerber"/>
             </SplideSlide>
             <SplideSlide>
                 <Quote quote="Die Firma AH Stuck und Design wurde von uns im Rahmen einer Fassadenerneuerung beauftragt. Sämtliche Arbeiten liefen organisiert, pünktlich,sauber und professionell ab. Wir sind absolut zufrieden und können die Firma uneingeschränkt weiterempfehlen."
