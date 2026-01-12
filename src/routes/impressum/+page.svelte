@@ -34,18 +34,32 @@
     <section id="imprint">
         <div class="text-section">
             <h1>Impressum</h1>
-            <h2 id="m46">Diensteanbieter</h2>
+            <h2>Diensteanbieter</h2>
             <p>Andreas Ha&szlig;ler, Ha&szlig;ler-Schwenk-Weiss GbR</p>
             <p>Gottlieb-Daimler Stra&szlig;e 11</p>
             <p>89150 Laichingen</p>
 
-            <h2 id="m56">Kontakt&shy;m&ouml;glichkeiten</h2><p>E-Mail-Adresse: <a href="mailto:info@ahstuckdesign.de">info@ahstuckdesign.de</a></p>
+            <h2>Kontaktm&ouml;glichkeiten</h2>
+            <p>E-Mail-Adresse: <a href="mailto:info@ahstuckdesign.de">info@ahstuckdesign.de</a></p>
             <p>Telefon: +49 7333 8053144</p>
 
-            <h2 id="m58">Angaben zum Unternehmen</h2><p>Umsatzsteuer Identifikationsnummer (USt-ID): DE452011847</p>
+            <h2>Angaben zum Unternehmen</h2>
+            <p>Umsatzsteuer Identifikationsnummer (USt-ID): DE452011847</p>
 
-            <h2 id="m72">Berufshaftpflicht&shy;versicherung</h2>
-            <h2 id="m5234">Vorbehalt der Nutzung f&uuml;r Text und Data Mining</h2><p>Vorbehalt der Nutzung f&uuml;r Text und Data Mining: Der Inhaber dieser Website gestattet die Nutzung oder das Herunterladen von Inhalten dieser Website durch Dritte f&uuml;r die Entwicklung, das Training oder den Betrieb von k&uuml;nstlicher Intelligenz oder anderen maschinellen Lernsystemen ("Text und Data Mining") ausschlie&szlig;lich mit ausdr&uuml;cklicher schriftlicher Zustimmung des Inhabers. Ohne eine solche Zustimmung ist es untersagt, die Inhalte f&uuml;r Text und Data Mining zu verwenden. Dies gilt auch, wenn auf der Website keine Meta-Angaben vorhanden sind, die entsprechende Verfahren aussperren, und selbst dann, wenn Bots, die den Zweck haben, die Website zu Zwecken des Text und Data Mining auszulesen, nicht ausgesperrt werden.</p>
+            <h2>Berufshaftpflicht&shy;versicherung</h2>
+            <p>SV Sparkassenversicherung,<br>
+                Sitz Stuttgart, Deutschland<br>
+                Registergericht Stuttgart<br>
+                HRB 16264</p>
+            <p>R&auml;umliche Geltung: EU</p>
+
+            <h2>Kammer</h2>
+            <p>Kammer (oder vergleichbare berufsrechtlicher Organisation): </p>
+            <p>Handwerkskammer Ulm<br>Olgastra&szlig;e 72<br>89073 Ulm<br>Deutschland</p>
+            <p>Website und Kontakt der Kammer: <a href="https://www.hwk-ulm.de/" target="_blank">https://www.hwk-ulm.de/</a></p>
+
+            <h2>Vorbehalt der Nutzung f&uuml;r Text und Data Mining</h2>
+            <p>Vorbehalt der Nutzung f&uuml;r Text und Data Mining: Der Inhaber dieser Website gestattet die Nutzung oder das Herunterladen von Inhalten dieser Website durch Dritte f&uuml;r die Entwicklung, das Training oder den Betrieb von k&uuml;nstlicher Intelligenz oder anderen maschinellen Lernsystemen ("Text und Data Mining") ausschlie&szlig;lich mit ausdr&uuml;cklicher schriftlicher Zustimmung des Inhabers. Ohne eine solche Zustimmung ist es untersagt, die Inhalte f&uuml;r Text und Data Mining zu verwenden. Dies gilt auch, wenn auf der Website keine Meta-Angaben vorhanden sind, die entsprechende Verfahren aussperren, und selbst dann, wenn Bots, die den Zweck haben, die Website zu Zwecken des Text und Data Mining auszulesen, nicht ausgesperrt werden.</p>
 
             <p class="seal"><a href="https://datenschutz-generator.de/" title="Rechtstext von Dr. Schwenke - f&uuml;r weitere Informationen bitte anklicken." target="_blank" rel="noopener noreferrer nofollow"><img src="https://datenschutz-generator.de/wp-content/plugins/ts-dsg/images/dsg-seal/dsg-seal-doc-de.png" alt="Rechtstext von Dr. Schwenke - f&uuml;r weitere Informationen bitte anklicken." width="250" height="250"></a></p>
         </div>
