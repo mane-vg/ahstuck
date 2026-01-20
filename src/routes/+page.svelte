@@ -231,10 +231,10 @@
           pagination: false,
         }}>
             <SplideSlide>
-                <Image src="/images/work_1.jpg" caption="Stuck"/>
+                <Image src="/images/work_1.jpg" caption="Außenputz"/>
             </SplideSlide>
             <SplideSlide>
-                <Image src="/images/work_2.jpg" caption="Außenputz"/>
+                <Image src="/images/work_2.jpg" caption="Stuck"/>
             </SplideSlide>
             <SplideSlide>
                 <Image src="/images/work_3.jpg" caption="Außenputz"/>
@@ -249,7 +249,7 @@
                 <Image src="/images/work_6.jpg" caption="Außenputz"/>
             </SplideSlide>
             <SplideSlide>
-                <Image src="/images/work_7.jpg" caption="Stuck"/>
+                <Image src="/images/work_7.jpg" caption="Außenputz"/>
             </SplideSlide>
             <SplideSlide>
                 <Image src="/images/work_8.jpg" caption="Akustik"/>
@@ -274,9 +274,6 @@
             </SplideSlide>
             <SplideSlide>
                 <Image src="/images/work_14.jpg" caption="Innenraumgestaltung"/>
-            </SplideSlide>
-            <SplideSlide>
-                <Image src="/images/work_15.jpg" caption="Außenputz"/>
             </SplideSlide>
             <SplideSlide>
                 <Image src="/images/work_16.jpg" caption="Stuck"/>
